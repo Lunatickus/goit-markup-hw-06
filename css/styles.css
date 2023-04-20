@@ -499,9 +499,6 @@ button {
     background-color: var(--green);
 }
 
-.footer-form-wrapper {
-}
-
 .footer-form {
     display: flex;
     gap: 24px;
@@ -801,6 +798,7 @@ button {
     position: absolute;
     top: 50%;
     left: 16px;
+    fill: var(--light-slate);
     transform: translate(0, -50%);
 
     transition: fill var(--transition-dur-and-func);
