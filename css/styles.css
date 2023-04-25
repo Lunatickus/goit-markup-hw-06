@@ -831,7 +831,7 @@ button {
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
-.modal-form-check:checked + .modal-form-check-desc .modal-form-check-icon-wrapper {
+.modal-form-check:checked + .modal-form-check-icon-wrapper {
     /* border-color: var(--accent-color);
     background-color: var(--accent-color); */
     border-color: transparent;
@@ -842,7 +842,7 @@ button {
     opacity: 0;
 }
 
-.modal-form-check:checked + .modal-form-check-desc .modal-form-check-icon-wrapper .modal-form-check-icon {
+.modal-form-check:checked + .modal-form-check-icon-wrapper .modal-form-check-icon {
     opacity: 1;
 }
 
